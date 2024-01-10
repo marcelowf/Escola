@@ -17,20 +17,20 @@ namespace SistemaEscolar
             minhaEscola.AdicionarTurma(turma2);
 
             // Add professores
-            Professor joaoPedroSilva = new Professor("João", "123456789", 35, "Artes", 8.000);
-            Professor fernandaFontes = new Professor("Maria", "987654321", 50 , "Matematica", 9.000);
+            Professor joaoPedroSilva = new Professor("João", "123456789", 1970, "Artes", 8.000);
+            Professor fernandaFontes = new Professor("Maria", "987654321", 1960 , "Matematica", 9.000);
 
             // Add professores em turma
             turma1.AdicionarProfessor("Artes", joaoPedroSilva);
             turma1.AdicionarProfessor("Matematica", fernandaFontes);
 
             // Matriculando alunos
-            Responsavel fernandoPereiraTadala = new Responsavel("Fernando", "645642554", 40, "Pai", 2.500);
-            Estudante lucasPereiraTadala = new Estudante("Lucas", "987654321", 12, "1M1", fernandoPereiraTadala);
+            Responsavel fernandoPereiraTadala = new Responsavel("Fernando", "645642554", 1970, "Pai", 2.500);
+            Estudante lucasPereiraTadala = new Estudante("Lucas", "987654321", 2012, "1M1", fernandoPereiraTadala);
             turma1.MatricularAluno(lucasPereiraTadala);
 
-            Responsavel sofiaSilva = new Responsavel("Sofia", "645888854", 35, "Mae", 2.500);
-            Estudante anaBeatrizSilva = new Estudante("Ana", "654321987", 13, "1M1", sofiaSilva);
+            Responsavel sofiaSilva = new Responsavel("Sofia", "645888854", 1980, "Mae", 2.500);
+            Estudante anaBeatrizSilva = new Estudante("Ana", "654321987", 2012, "1M1", sofiaSilva);
             turma1.MatricularAluno(anaBeatrizSilva);
             
             // Exibindo informacoes da escola

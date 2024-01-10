@@ -26,3 +26,4 @@ C:\DotNet_Curso\SistemaEscolar\bin\Debug\net8.0\Escola.dll
 C:\DotNet_Curso\SistemaEscolar\bin\Debug\net8.0\Escola.pdb
 C:\DotNet_Curso\SistemaEscolar\obj\Debug\net8.0\Escola.genruntimeconfig.cache
 C:\DotNet_Curso\SistemaEscolar\obj\Debug\net8.0\ref\Escola.dll
+C:\DotNet_Curso\SistemaEscolar\obj\Debug\net8.0\Escola.sourcelink.json

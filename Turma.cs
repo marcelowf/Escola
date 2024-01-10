@@ -15,7 +15,6 @@ namespace SistemaEscolar
 
         public void AdicionarProfessor(string disciplina, Professor professor)
         {
-            // Certifique-se de que não estamos substituindo um professor existente
             if (!professoresPorDisciplina.ContainsKey(disciplina))
             {
                 professoresPorDisciplina.Add(disciplina, professor);
@@ -28,7 +27,6 @@ namespace SistemaEscolar
 
         public void SubstituirProfessor(string disciplina, Professor novoProfessor)
         {
-            // Substituir o professor se a disciplina existir
             if (professoresPorDisciplina.ContainsKey(disciplina))
             {
                 professoresPorDisciplina[disciplina] = novoProfessor;

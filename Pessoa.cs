@@ -1,16 +1,16 @@
 namespace SistemaEscolar
 {
-    class Pessoa
+    abstract class Pessoa
     {
         public string NomePessoa { get; }
         public string CpfPessoa { get; }
-        public int IdadePessoa { get; set; }
+        public int DataNascimento { get; set; }
 
-        public Pessoa(string nomePessoa, string cpfPessoa, int idadePessoa)
+        public Pessoa(string nomePessoa, string cpfPessoa, int dataNascimento)
         {
             NomePessoa = nomePessoa;
             CpfPessoa = cpfPessoa;
-            IdadePessoa = idadePessoa;
+            DataNascimento = dataNascimento;
         }
     }
 }
